@@ -45,8 +45,8 @@ theme = "hello-friend-ng"
     identiier = "discord"
     name = "Discord"
     url = "https://discord.gg/AMBVFuf"
-  #[[menu.main]]
-  #  identifier = "releases"
-  #  name       = "Releases"
-  #  url        = "https://releases.axiodl.com"
+  [[menu.main]]
+    identifier = "releases"
+    name       = "Releases"
+    url        = "https://releases.axiodl.com"
 
