@@ -2,6 +2,11 @@ baseURL = "/"
 languageCode = "en-us"
 title = "AxioDL"
 theme = "hello-friend-ng"
+paginate = 5
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -17,13 +22,18 @@ theme = "hello-friend-ng"
   subtitle = "AxioDL"
   keywords = "homepage, open-source, software, metroid prime, retro studios, urde, hecl"
   images = [""]
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 1
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
-
+  
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  toc = true
 
 [languages]
   [languages.en]
@@ -49,4 +59,7 @@ theme = "hello-friend-ng"
     identifier = "releases"
     name       = "Releases"
     url        = "https://releases.axiodl.com"
-
+  [[menu.main]]
+   identifier = "blog"
+   name       = "Blog"
+   url        = "/posts"
