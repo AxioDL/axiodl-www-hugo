@@ -18,9 +18,9 @@ paginate = 5
   disableReadOtherPosts = false
 
   # Metadata mostly used in document's head
-  description = "URDE is an attempt to recreate the engine for Retro Studios’ GameCube and Wii games, including the Metroid Prime series and Donkey Kong Country Returns. The goal is to have the games run natively on Linux, Windows, and macOS. Effort has been taken to ensure the behavior is as close to the originals as possible."
+  description = "Metaforce is an attempt to recreate the engine for Retro Studios’ GameCube and Wii games, including the Metroid Prime series and Donkey Kong Country Returns. The goal is to have the games run natively on Linux, Windows, and macOS. Effort has been taken to ensure the behavior is as close to the originals as possible."
   subtitle = "AxioDL"
-  keywords = "homepage, open-source, software, metroid prime, retro studios, urde, hecl"
+  keywords = "metaforce, homepage, open-source, software, metroid prime, retro studios, urde, hecl"
   images = [""]
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 1
@@ -37,7 +37,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "URDE"
+    title = "Metaforce"
     keywords = ""
     copyright = ""
     readOtherPosts = "Read other posts"
@@ -59,7 +59,7 @@ paginate = 5
     identifier = "releases"
     name       = "Releases"
     url        = "https://releases.axiodl.com"
-  [[menu.main]]
-   identifier = "blog"
-   name       = "Blog"
-   url        = "/posts"
+#  [[menu.main]]
+#   identifier = "blog"
+#   name       = "Blog"
+#   url        = "/posts"
