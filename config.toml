@@ -38,9 +38,11 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Metaforce"
-    keywords = ""
     copyright = ""
-    readOtherPosts = "Read other posts"
+
+    [languages.en.params]
+      keywords = ""
+      readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
       logoText = "AxioDL"
