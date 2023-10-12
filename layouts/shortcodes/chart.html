@@ -4,10 +4,10 @@
     <canvas id="myChart"></canvas>
 </div>
 <script>
-    fetch('https://progress.deco.mp/data/prime/0/dol/?mode=all')
+    fetch('https://progress.deco.mp/data/prime/GM8E01_00/dol/?mode=all')
         .then(v => v.json())
         .then(result => {
-            const entries = result['prime']['0']['dol'];
+            const entries = result['prime']['GM8E01_00']['dol'];
 
             const data = {
                 labels: entries.map(a => new Date(a.timestamp * 1000).toISOString()),
